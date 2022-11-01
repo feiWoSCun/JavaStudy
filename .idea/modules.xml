@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cateen/Cateen.iml" filepath="$PROJECT_DIR$/Cateen/Cateen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gaming/Gaming.iml" filepath="$PROJECT_DIR$/Gaming/Gaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IdeaProjects.iml" filepath="$PROJECT_DIR$/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LuoGu/LuoGu.iml" filepath="$PROJECT_DIR$/LuoGu/LuoGu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManageSystem/ManageSystem.iml" filepath="$PROJECT_DIR$/ManageSystem/ManageSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lanqiao/Study/Study.iml" filepath="$PROJECT_DIR$/Lanqiao/Study/Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/第一次-level-罗彬-2021214407/第一次-level-罗彬-2021214407.iml" filepath="$PROJECT_DIR$/第一次-level-罗彬-2021214407/第一次-level-罗彬-2021214407.iml" />
+    </modules>
+  </component>
+</project>

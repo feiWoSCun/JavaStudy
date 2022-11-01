@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: root
+    password: 2825097536
+    url: jdbc:mysql://localhost:3306/ruyi?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+mybatis-plus:
+  # ???????
+  typeAliasesPackage: com.itextpdf.entity
+  # ??mapper?????????mapper.xml????
+  apperLocations: classpath*:mapper/**/*Mapper.xml
+  # ?????????
+  configLocation:

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itextpdf.mapper.SelectZdMapper">
+    <select id="selectAll" resultType="String">
+        select * from(
+                         select  zd.zdyw,nr.nr
+                         from t_pgbgnr nr
+                                  left join t_pgbzdgx zd
+                                            on nr.pgbzdgx_id = zd.id
+                                                and zd.bdzwmc = #{bdzw} order by nr.id) t
+        where  t.zdyw is not null
+        ;
+    </select>
+    <select id="selectBdName" resultType="map">
+        select distinct bdzwmc
+        from t_pgbzdgx;
+    </select>
+    <select id="selectTest" resultType="String">
+        select zdyw from t_pgbzdgx where bdzwmc=#{bdzw}
+    </select>
+    </mapper>
